@@ -1,0 +1,91 @@
+.pricing__top{
+    text-align: center;
+}
+
+.pricing__top h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.pricing__top p{
+    font-size: 1.1rem;
+    color: var(--heading-color);
+    line-height: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.pricing__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+.pricing__item{
+    box-shadow: rgba(0, 0, 0, 0.33) 0 .2rem .5rem 0;
+    border-radius: .3rem;
+    width: 33%;
+    background: #fff;
+}
+
+.pricing__card-top{
+    padding: 1rem;
+    border-bottom: .1rem solid #d3cef2;
+    text-align: center;
+}
+
+.pricing__card-top h2{
+    font-size: 1.8rem;
+    margin-bottom: .9rem;
+}
+
+.pricing__card-top .pricing{
+    font-size: 1.4rem;
+}
+
+.pricing__card-top .pricing span{
+    font-size: 1rem;
+    color: #666;
+}
+
+.pricing__item .services{
+padding: 1rem;
+}
+
+.pricing__item .services ul li{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    color: #666;
+    line-height: 1.2rem;
+}
+
+.pricing__item .services ul li span{
+    font-size: 0.5rem;
+}
+
+.services{
+    text-align: center;
+}
+
+.services button{
+    margin-top: 1.5rem;
+}
+
+.pricing__item-02 .pricing__card-top {
+    background-color: var(--primary-color);
+    border-radius: .3rem;
+}
+
+.pricing__item-02 .pricing__card-top h2{
+    color: #fff;
+    font-weight: 500;
+}
+
+.pricing__item-02 .pricing__card-top h2 span{
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.pricing__item-02 .services ul li span{
+    color: var(--primary-color);
+}
